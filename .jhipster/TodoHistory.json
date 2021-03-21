@@ -1,0 +1,32 @@
+{
+  "name": "TodoHistory",
+  "fields": [
+    {
+      "fieldName": "startAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endAt",
+      "fieldType": "Instant"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "todo",
+      "otherEntityRelationshipName": "todoHistory",
+      "relationshipName": "todo",
+      "ownerSide": true
+    }
+  ],
+  "entityTableName": "todo_history",
+  "dto": "no",
+  "pagination": "infinite-scroll",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210321102728"
+}

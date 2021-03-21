@@ -1,0 +1,10 @@
+{
+  "tuudoApp": {
+    "Status": {
+      "null": "",
+      "CREATED": "CREATED",
+      "PENDING": "PENDING",
+      "COMPLETED": "COMPLETED"
+    }
+  }
+}

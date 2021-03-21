@@ -1,0 +1,31 @@
+{
+  "tuudoApp": {
+    "todo": {
+      "home": {
+        "title": "Todos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Todo",
+        "createOrEditLabel": "Luo tai muokkaa Todo",
+        "notFound": "Todo ei löytynyt"
+      },
+      "created": "Uusi Todo on luotu, id: {{ param }}",
+      "updated": "Todo on päivitetty, id: {{ param }}",
+      "deleted": "Todo on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Todo {{ id }}?"
+      },
+      "detail": {
+        "title": "Todo"
+      },
+      "id": "ID",
+      "title": "Title",
+      "startAt": "Start At",
+      "endAt": "End At",
+      "description": "Description",
+      "status": "Status",
+      "priority": "Priority",
+      "course": "Course",
+      "school": "School"
+    }
+  }
+}

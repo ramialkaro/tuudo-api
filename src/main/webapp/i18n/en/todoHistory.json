@@ -1,0 +1,26 @@
+{
+  "tuudoApp": {
+    "todoHistory": {
+      "home": {
+        "title": "Todo Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Todo History",
+        "createOrEditLabel": "Create or edit a Todo History",
+        "notFound": "No Todo Histories found"
+      },
+      "created": "A new Todo History is created with identifier {{ param }}",
+      "updated": "A Todo History is updated with identifier {{ param }}",
+      "deleted": "A Todo History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Todo History {{ id }}?"
+      },
+      "detail": {
+        "title": "Todo History"
+      },
+      "id": "ID",
+      "startAt": "Start At",
+      "endAt": "End At",
+      "todo": "Todo"
+    }
+  }
+}

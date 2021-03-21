@@ -1,0 +1,26 @@
+{
+  "tuudoApp": {
+    "todoHistory": {
+      "home": {
+        "title": "Todo Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Todo History",
+        "createOrEditLabel": "Luo tai muokkaa Todo History",
+        "notFound": "Todo History ei löytynyt"
+      },
+      "created": "Uusi Todo History on luotu, id: {{ param }}",
+      "updated": "Todo History on päivitetty, id: {{ param }}",
+      "deleted": "Todo History on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Todo History {{ id }}?"
+      },
+      "detail": {
+        "title": "Todo History"
+      },
+      "id": "ID",
+      "startAt": "Start At",
+      "endAt": "End At",
+      "todo": "Todo"
+    }
+  }
+}

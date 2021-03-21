@@ -41,6 +41,8 @@
     "jwtSecretKey": "M2U5MzE0NmI2N2ZjZjBlZjc2OTkzNjM2ZjJlOWU1OGQyN2EwZTEwNWUxMWMyMjkyNzg2Zjg3MmJmNGVmYjI5ZTgxOTJlZDhjNTMxZDU1ODA5YWYyNTU5Y2E3OWFmNWY1NzE3YmNlMzdiYThhZDNlZDY0ZWZmOTQ1OGMwYTlkNmQ=",
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en", "fi"]
+    "languages": ["en", "fi"],
+    "entities": ["School", "Course", "Todo", "TodoHistory"],
+    "lastLiquibaseTimestamp": 1616322448000
   }
 }

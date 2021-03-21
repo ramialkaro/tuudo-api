@@ -1,0 +1,27 @@
+{
+  "tuudoApp": {
+    "course": {
+      "home": {
+        "title": "Courses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo Course",
+        "createOrEditLabel": "Luo tai muokkaa Course",
+        "notFound": "Course ei löytynyt"
+      },
+      "created": "Uusi Course on luotu, id: {{ param }}",
+      "updated": "Course on päivitetty, id: {{ param }}",
+      "deleted": "Course on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Course {{ id }}?"
+      },
+      "detail": {
+        "title": "Course"
+      },
+      "id": "ID",
+      "name": "Name",
+      "point": "Point",
+      "progress": "Progress",
+      "url": "Url"
+    }
+  }
+}

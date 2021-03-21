@@ -1,0 +1,46 @@
+
+enum Status {
+    CREATED, PENDING, COMPLETED
+}
+
+enum Priority {
+	LOW, MEDIUM, HIGH
+}
+
+entity School{
+	name String,
+    url String    
+}
+
+entity Course{
+	name String,
+  	point Long,
+    progress Long,
+    url String
+}
+
+entity Todo {
+	title String,
+    startAt Instant,
+    endAt Instant,
+    description String,
+    status Status,
+    priority Priority
+}
+
+
+entity TodoHistory {
+	startAt Instant,
+    endAt Instant    
+}
+
+relationship OneToOne {
+	TodoHistory{todo} to Todo,
+    Todo{course} to Course,
+    Todo{school} to School
+}
+
+
+// Set pagination options
+paginate  TodoHistory with infinite-scroll
+paginate Todo with pagination

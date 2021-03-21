@@ -1,0 +1,25 @@
+{
+  "tuudoApp": {
+    "school": {
+      "home": {
+        "title": "Schools",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Luo School",
+        "createOrEditLabel": "Luo tai muokkaa School",
+        "notFound": "School ei löytynyt"
+      },
+      "created": "Uusi School on luotu, id: {{ param }}",
+      "updated": "School on päivitetty, id: {{ param }}",
+      "deleted": "School on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa School {{ id }}?"
+      },
+      "detail": {
+        "title": "School"
+      },
+      "id": "ID",
+      "name": "Name",
+      "url": "Url"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity TodoHistory.
+    -->
+    <changeSet id="20210321102728-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="todo_id"
+                                 baseTableName="todo_history"
+                                 constraintName="fk_todo_history__todo_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="todo"/>
+
+    </changeSet>
+</databaseChangeLog>
